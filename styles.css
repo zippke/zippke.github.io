@@ -64,28 +64,25 @@ section #item {
   border-radius: 5px;
 }
 
-img {
+#item > img {
   height: 70px;
 }
 
 @media (max-width: 900px) {
-  section {
-   }
-   section #item {
+  section #item {
      min-width: 20%;
      margin: 0.5%;
      flex: 1;
   }
+
   #wrap {
     width: 90%;
     margin: 2% auto;
   }
 }
-@media (max-width: 600px) {
 
+@media (max-width: 600px) {
   section {
      flex-direction: column;
    }
-   section #item {
-  }
 }
